@@ -33,3 +33,7 @@
 	font-size: 12px;
   color: #fff;
 }
+
+a[href= "http://www.sourav4u.in"]{
+    color: white;
+}
