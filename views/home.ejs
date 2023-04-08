@@ -7,7 +7,7 @@
     <h1><%= postContent[i].title %></h1>
     <p><%= postContent[i].content.substring(0,100)+ " ..." %>
         <a href="/post/
-        <%= postContent[i].title %>
+        <%= postContent[i]._id %>
         ">Read More</a>
     </p><br>
 <% } %>
